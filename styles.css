@@ -1,0 +1,60 @@
+
+body {
+    background-color: #f3e5f5; /* light purple background */
+    font-family: Arial, sans-serif; /* default body font */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: white;
+    background-color: purple;
+    font-family: "Georgia", serif;
+    padding: 20px;
+    margin: 0;
+}
+
+
+p {
+    font-size: 18px; /* makes text bigger */
+    font-family: "Trebuchet MS", sans-serif; /* nicer, modern font */
+    line-height: 1.6; /* adds spacing between lines for readability */
+    margin: 15px auto;
+    width: 80%; /* keeps text narrower and easier to read */
+}
+
+
+ { }
+
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: darkviolet;
+    font-weight: bold;
+    font-family: "Verdana", sans-serif;
+}
+
+nav a:hover {
+    color: indigo;
+}
+
+img {
+    margin: 20px auto;
+    display: block;
+    border: 4px solid purple; /* purple border around images */
+    border-radius: 10px;       /* rounded corners */
+    max-width: 80%;       
+}
+footer {
+    margin-top: 20px;
+    color: purple;
+    font-family: "Courier New", monospace;
+}
+
