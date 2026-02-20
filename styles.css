@@ -58,3 +58,93 @@ footer {
     font-family: "Courier New", monospace;
 }
 
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f9f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #5a2d82; /* deep purple */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d1c4e9; /* lighter purple hover */
+}
+
+/* Headings */
+h1, h2 {
+  color: #5a2d82;
+  text-align: center;
+}
+
+/* Mood Tracker form */
+form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+select, textarea, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+/* Buttons */
+button {
+  background-color: #5a2d82;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #7b3fb3; /* brighter purple */
+}
+
+/* Journal box */
+textarea {
+  width: 80%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  background-color: #f3e5f5; /* soft lavender */
+}
+
+/* Table styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #5a2d82;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f3e5f5;
+}
